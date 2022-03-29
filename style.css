@@ -1,0 +1,117 @@
+
+body{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0 auto; 
+    width: 85%;
+    text-align: center;
+    color: white;
+}
+.section-items{
+    padding-top: 5%;
+    display: flex;  
+    flex-wrap: wrap;
+}
+#book-1{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 5%;
+}
+.underline{
+    margin: 0 auto;
+    border: 1px solid chocolate;
+    width: 75%;
+}
+span{
+    color: rgba(185, 119, 119, 0.938);
+}
+p{
+    margin: 5% auto; 
+    width: 70%;
+    color: rgba(255, 255, 255, 0.521);  
+    text-align: left;
+}
+img{
+    border: 5px solid chocolate;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 1200px){
+    body{
+        background-color: rgb(220, 243, 243);
+        margin: 0 auto; 
+        width: 70%;
+        text-align: center;
+    }
+    .section-items{
+        padding-top: 5%;
+        display: flex; 
+        flex-wrap: wrap;
+        flex-direction: row;  
+    }
+    #book-1{
+        padding-top: 5%;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    p{
+        margin: 5% auto; 
+        width: 80%;
+        color: rgba(255, 255, 255, 0.521);  
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 1000px){
+    body{
+        background-color: rgb(220, 243, 243);
+        margin: 0 auto; 
+        width: 90%;
+        text-align: center;
+    }
+    .section-items{
+        padding-top: 5%;
+        display: flex; 
+        flex-wrap: wrap;
+        flex-direction: row;  
+    }
+    #book-1{
+        padding-top: 5%;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    span{
+        color: rgba(165, 42, 42, 0.692);
+    }
+    p{
+        margin: 5% auto; 
+        width: 80%;
+        color: rgba(255, 255, 255, 0.521);
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 600px){
+    body{
+        margin: 0 auto; 
+        width: auto;
+        text-align: center;
+    }
+    .section-items{
+    
+        display: block;  
+    }
+    #book-1{
+        display: block;
+        width: auto;
+    }
+    p{
+        margin: 5% auto; 
+        width: 80%;
+        color: rgba(255, 255, 255, 0.521);
+        text-align: center;
+    }
+}
